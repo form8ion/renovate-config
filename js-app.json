@@ -1,1 +1,1 @@
-{"extends": ["config:js-app"]}
+{"extends": ["github>form8ion/renovate-config", ":pinAllExceptPeerDependencies"]}

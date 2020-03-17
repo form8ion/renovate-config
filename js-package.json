@@ -1,1 +1,1 @@
-{"extends": ["config:js-lib"]}
+{"extends": ["github>form8ion/renovate-config", ":pinOnlyDevDependencies"]}
