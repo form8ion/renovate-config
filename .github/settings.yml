@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: renovate-config
+  description: shareable configs for use with renovate
+  homepage: 'https://github.com/form8ion/renovate-config#readme'
+  private: false
