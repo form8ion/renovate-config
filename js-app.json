@@ -1,1 +1,4 @@
-{"extends": ["github>form8ion/renovate-config", ":pinAllExceptPeerDependencies"]}
+{
+  "extends": ["github>form8ion/renovate-config", ":pinAllExceptPeerDependencies"],
+  "node": {"supportPolicy": ["lts_latest"]}
+}
