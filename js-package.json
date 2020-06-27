@@ -1,4 +1,4 @@
 {
   "extends": ["github>form8ion/renovate-config", ":pinOnlyDevDependencies"],
-  "baseBranches": ["master", "main", "alpha", "beta"]
+  "baseBranches": ["master", "alpha", "beta"]
 }
