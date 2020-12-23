@@ -1,4 +1,19 @@
 {
   "extends": ["github>form8ion/renovate-config", ":pinOnlyDevDependencies"],
-  "baseBranches": ["master", "main", "alpha", "beta"]
+  "baseBranches": ["master", "main", "alpha", "beta"],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "semanticCommitType": "chore"
+    },
+    {
+      "depTypeList": [
+        "dependencies",
+        "peerDependenies"
+      ],
+      "semanticCommitType": "fix"
+    }
+  ]
 }
