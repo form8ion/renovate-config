@@ -2,6 +2,7 @@
   "name": "renovate-config",
   "description": "shareable configs for use with renovate",
   "license": "MIT",
+  "private": true,
   "repository": "form8ion/renovate-config",
   "bugs": "https://github.com/form8ion/renovate-config/issues",
   "homepage": "https://github.com/form8ion/renovate-config#readme",
@@ -12,7 +13,6 @@
     "lint:md": "remark . --frail",
     "generate:md": "remark . --output",
     "lint:sensitive": "ban",
-    "lint:travis": "travis-lint .travis.yml",
     "lint:peer": "npm ls >/dev/null"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "lockfile-lint": "4.3.7",
     "npm-run-all": "4.1.5",
     "remark-cli": "9.0.0",
-    "remark-toc": "7.0.0",
-    "travis-lint": "1.0.0"
-  }
+    "remark-toc": "7.0.0"
+  },
+  "dependencies": {}
 }
