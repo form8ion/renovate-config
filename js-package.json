@@ -11,7 +11,7 @@
     {
       "depTypeList": [
         "dependencies",
-        "peerDependenies"
+        "peerDependencies"
       ],
       "semanticCommitType": "fix"
     }
