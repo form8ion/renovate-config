@@ -4,5 +4,12 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automergeType": "branch"
-  }
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["action"],
+      "semanticCommitType": "ci",
+      "semanticCommitScope": "action"
+    }
+  ]
 }
