@@ -10,6 +10,12 @@
       "depTypeList": ["action"],
       "semanticCommitType": "ci",
       "semanticCommitScope": "action"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "semanticCommitType": "ci",
+      "matchPackageNames": ["node"],
+      "versionsing": "node"
     }
   ]
 }
