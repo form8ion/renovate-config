@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base"],
+  "extends": ["config:base", "replacements:all:],
   "automerge": true,
   "lockFileMaintenance": {
     "enabled": true,
