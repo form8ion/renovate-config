@@ -17,5 +17,8 @@
       "matchPackageNames": ["node"],
       "versionsing": "node"
     }
-  ]
+  ],
+  "replacement": {
+    "automerge": false
+  }
 }
