@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "replacements:all"],
+  "extends": ["config:base", "replacements:all", "github>form8ion/renovate-config:js-replacements"],
   "automerge": true,
   "lockFileMaintenance": {
     "enabled": true,
