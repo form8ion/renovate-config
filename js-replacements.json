@@ -1,0 +1,8 @@
+{
+  "packageRules": [{
+    "matchDatasources": ["npm"],
+    "matchPackageNames": ["@travi/javascript-scaffolder"],
+    "replacementName": "@form8ion/javascript",
+    "replacementVersion": "2.0.0"
+  }]
+}
