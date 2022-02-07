@@ -24,6 +24,12 @@
       "matchPackageNames": ["check-engine"],
       "replacementName": "ls-engines",
       "replacementVersion": "0.5.1"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["markdownlint-cli"],
+      "replacementName": "remark-cli",
+      "replacemntVersion": "10.0.1"
     }
   ]
 }
