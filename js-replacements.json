@@ -29,7 +29,7 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": ["markdownlint-cli"],
       "replacementName": "remark-cli",
-      "replacemntVersion": "10.0.1"
+      "replacementVersion": "10.0.1"
     }
   ]
 }
