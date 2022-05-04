@@ -27,7 +27,7 @@
     },
     {
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["markdownlint-cli"],
+      "matchPackageNames": ["markdownlint-cli", "doctoc"],
       "replacementName": "remark-cli",
       "replacementVersion": "10.0.1"
     }
