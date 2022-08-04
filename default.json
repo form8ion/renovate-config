@@ -17,7 +17,7 @@
       "matchDatasources": ["docker"],
       "semanticCommitType": "ci",
       "matchPackageNames": ["node"],
-      "versionsing": "node"
+      "versioning": "node"
     }
   ],
   "replacement": {
