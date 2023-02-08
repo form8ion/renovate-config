@@ -15,6 +15,10 @@
         "peerDependencies"
       ],
       "semanticCommitType": "fix"
+    },
+    {
+      "matchDepTypes": ["engines"],
+      "rangeStrategy": "widen"
     }
   ]
 }
