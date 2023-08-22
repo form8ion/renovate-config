@@ -36,6 +36,12 @@
       "matchPackageNames": ["nyc"],
       "replacementName": "c8",
       "replacementVersion": "8.0.0"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["npm-run-all"],
+      "replacementName": "npm-run-all2",
+      "replacementVersion": "5.0.0"
     }
   ]
 }
