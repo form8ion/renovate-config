@@ -3,6 +3,7 @@
   "extends": [
     "config:best-practices",
     "replacements:all",
+    "security:openssf-scorecard",
     "github>form8ion/renovate-config:js-replacements"
   ],
   "automerge": true,
