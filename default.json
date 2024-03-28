@@ -13,6 +13,7 @@
     "enabled": true,
     "automergeType": "branch"
   },
+  "osvVulnerabilityAlerts": true,
   "packageRules": [
     {
       "depTypeList": ["action"],
