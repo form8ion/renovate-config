@@ -14,7 +14,7 @@
       "replacementVersion": "2.0.0"
     },
     {
-      "matchDatascources": ["npm"],
+      "matchDatasources": ["npm"],
       "matchPackageNames": ["@form8ion/lift-javascript"],
       "replacementName": "@form8ion/javascript",
       "replacementVersion": "3.0.0"
