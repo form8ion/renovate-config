@@ -8,6 +8,12 @@
       "replacementVersion": "2.0.0"
     },
     {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@travi/github-scaffolder"],
+      "replacementName": "@form8ion/github",
+      "replacementVersion": "2.0.0"
+    },
+    {
       "matchDatascources": ["npm"],
       "matchPackageNames": ["@form8ion/lift-javascript"],
       "replacementName": "@form8ion/javascript",
