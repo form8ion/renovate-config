@@ -8,12 +8,17 @@
   "homepage": "https://github.com/form8ion/renovate-config#readme",
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
-    "test": "npm-run-all --print-label --parallel lint:*",
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
     "lint:md": "remark . --frail",
-    "generate:md": "remark . --output",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
+    "test:validate": "npm-run-all --print-label --parallel test:validate:**",
+    "test:validate:default": "npx --yes --package renovate -- renovate-config-validator default.json",
+    "test:validate:js-app": "npx --yes --package renovate -- renovate-config-validator js-app.json",
+    "test:validate:js-package": "npx --yes --package renovate -- renovate-config-validator js-package.json",
+    "test:validate:js-replacements": "npx --yes --package renovate -- renovate-config-validator js-replacements.json",
+    "generate:md": "remark . --output",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -25,7 +30,7 @@
     "lockfile-lint": "4.14.0",
     "npm-run-all2": "6.2.2",
     "remark-cli": "12.0.1",
-    "remark-toc": "9.0.0"
-  },
-  "dependencies": {}
+    "remark-toc": "9.0.0",
+    "renovate": "38.46.3"
+  }
 }
