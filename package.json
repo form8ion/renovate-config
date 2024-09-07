@@ -31,6 +31,6 @@
     "npm-run-all2": "6.2.2",
     "remark-cli": "12.0.1",
     "remark-toc": "9.0.0",
-    "renovate": "38.71.0"
+    "renovate": "38.72.0"
   }
 }
