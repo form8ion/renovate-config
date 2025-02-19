@@ -14,7 +14,7 @@
         "dependencies",
         "peerDependencies"
       ],
-      "matchJsonata": "$exists(isLockfileUpdate) = false",
+      "matchJsonata": ["$exists(isLockfileUpdate) = false"],
       "semanticCommitType": "fix"
     },
     {
