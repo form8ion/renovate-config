@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["github-actions"],
+      "matchPackageNames": ["form8ion/.github/.github/workflows/release-package.yml"],
+      "replacementName": "form8ion/semantic-release-workflow/.github/workflows/release.yml",
+      "replacementVersion": "1.0.0"
+    }
+  ]
+}
