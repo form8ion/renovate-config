@@ -5,7 +5,8 @@
     "replacements:all",
     "helpers:pinGitHubActionDigestsToSemver",
     "security:openssf-scorecard",
-    "github>form8ion/renovate-config:js-replacements"
+    "github>form8ion/renovate-config:js-replacements",
+    "github>form8ion/renovate-config:workflows-replacements"
   ],
   "automerge": true,
   "platformAutomerge": true,
