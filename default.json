@@ -8,6 +8,7 @@
     "github>form8ion/renovate-config:js-replacements",
     "github>form8ion/renovate-config:workflows-replacements"
   ],
+  "mode": "full",
   "automerge": true,
   "platformAutomerge": true,
   "lockFileMaintenance": {
