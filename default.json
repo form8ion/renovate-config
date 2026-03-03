@@ -17,7 +17,7 @@
   "osvVulnerabilityAlerts": true,
   "packageRules": [
     {
-      "depTypeList": ["action"],
+      "matchDepTypes": ["action"],
       "semanticCommitType": "ci",
       "semanticCommitScope": "action"
     },
