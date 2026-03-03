@@ -26,6 +26,11 @@
       "semanticCommitType": "ci",
       "matchPackageNames": ["node"],
       "versioning": "node"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@form8ion/**"],
+      "minimumReleaseAge": "0 days"
     }
   ],
   "replacement": {
