@@ -48,6 +48,12 @@
       "matchPackageNames": ["npm-run-all"],
       "replacementName": "npm-run-all2",
       "replacementVersion": "5.0.0"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["gherkin-lint"],
+      "replacementName": "gplint",
+      "replacementVersion": "2.5.2"
     }
   ]
 }
