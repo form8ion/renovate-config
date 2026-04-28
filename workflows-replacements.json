@@ -5,7 +5,7 @@
       "matchDatasources": ["github-digest"],
       "matchPackageNames": ["form8ion/.github"],
       "replacementName": "form8ion/semantic-release-workflow",
-      "replacementVersion": "v1.0.0"
+      "replacementVersion": "v2.0.0"
     }
   ]
 }
