@@ -2,6 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "description": "Hold mise-managed tool updates at least as long as mise's own `minimum_release_age` (default 24h). mise applies that cooldown when it resolves and locks versions, but installs of already-locked versions skip it, so an update Renovate locks sooner would bypass mise's protection entirely. Three days matches `security:minimumReleaseAgeNpm` and leaves margin for timestamp differences between Renovate's datasources and mise's own.",
+      "matchManagers": ["mise"],
+      "minimumReleaseAge": "3 days",
+      "internalChecksFilter": "strict"
+    },
+    {
       "matchManagers": ["nvm"],
       "postUpgradeTasks": {
         "commands": ["mise lock node"],
