@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>form8ion/renovate-config", ":pinOnlyDevDependencies"],
-  "baseBranches": ["master", "main", "alpha", "beta"],
+  "baseBranchPatterns": ["$default", "/^(alpha|beta)$/"],
   "packageRules": [
     {
       "packagePatterns": [
