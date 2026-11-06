@@ -16,6 +16,14 @@
       }
     },
     {
+      "matchManagers": ["pyenv"],
+      "postUpgradeTasks": {
+        "commands": ["mise lock python"],
+        "fileFilters": ["mise.lock"],
+        "executionMode": "branch"
+      }
+    },
+    {
       "matchManagers": ["terraform-version"],
       "postUpgradeTasks": {
         "commands": ["mise lock terraform"],
